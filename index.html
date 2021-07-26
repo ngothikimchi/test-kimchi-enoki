@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Test studio - alternance</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="splide.min.css">
+<link rel="stylesheet" href="themes/splide-sea-green.min.css">
+<!-- FONTS -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap" rel="stylesheet">
+
+
+<script src="https://kit.fontawesome.com/f1f264d28e.js" crossorigin="anonymous"></script>
+<script src="splide.min.js"></script>
+</head>
+<body>
+<!-- Begin partie header -->
+<div class="partie-header full-width">
+    <div class="header-title full-width">Rock Climbing</div>
+    
+    <div class="header-icon full-width"><a id="btn-scroll"><i class="fas fa-angle-down fa-3x"></i></a></div>
+</div>
+<!-- End partie header --> 
+
+<!-- Begin partie Climbers --> 
+
+<div id="climbers" class="partie-climbers center">
+    <div class="climbing-new-title1 color-blue">Climbers</div>
+    <div class="climbers-text center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+         minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</div>
+ 
+    <!-- Begin partie slider -->
+    <div id="image-slider" class="splide slider-width center">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide">
+                    <div class="picture"><img src="images/5eb56b7401e9c.png" alt="climber">
+                        <div class="nom-lieu-climber">
+                            <div class="nom-climber">Alex Honnold</div>
+                            <div class="lieu-climber">Paris, 2021</div>
+                        </div>
+                    </div>
+                </li>
+                <li class="splide__slide">
+                    <div class="picture"><img src="images/sharma_home.png" alt="climber"> 
+                        <div class="nom-lieu-climber">
+                            <div class="nom-climber">Chris Sharma</div>
+                            <div class="lieu-climber">Paris, 2021</div>
+                        </div>
+                     </div>
+                </li>
+                <li class="splide__slide">
+                    <div class="picture"><img src="images/tommy-caldwell-_c_-corey-rich_1.png" alt="climber"> 
+                        <div class="nom-lieu-climber">
+                            <div class="nom-climber">Tommy Caldwell</div>
+                            <div class="lieu-climber">Paris, 2021</div>
+                        </div>
+                     </div>
+                </li>
+                <li class="splide__slide">
+                    <div class="picture"><img src="images/5eb56b7401e9c.png" alt="climber"> 
+                        <div class="nom-lieu-climber">
+                            <div class="nom-climber">Alex Honnold</div>
+                            <div class="lieu-climber">Paris, 2021</div>
+                        </div>
+                     </div>
+                </li>
+                <li class="splide__slide">
+                    <div class="picture"><img src="images/sharma_home.png" alt="climber"> 
+                        <div class="nom-lieu-climber">
+                            <div class="nom-climber">Chris Sharma</div>
+                            <div class="lieu-climber">Paris, 2021</div>
+                        </div>
+                     </div>
+                </li>
+                <li class="splide__slide">
+                    <div class="picture"><img src="images/tommy-caldwell-_c_-corey-rich_1.png" alt="climber"> 
+                        <div class="nom-lieu-climber">
+                            <div class="nom-climber">Alex Honnold</div>
+                            <div class="lieu-climber">Paris, 2021</div>
+                        </div>
+                     </div>
+                </li>
+                <li class="splide__slide">
+                    <div class="picture"><img src="images/5eb56b7401e9c.png" alt="climber"> 
+                        <div class="nom-lieu-climber">
+                            <div class="nom-climber">Tommy Caldwell</div>
+                            <div class="lieu-climber">Paris, 2021</div>
+                        </div>
+                     </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- End partie slider -->
+    <div class="button-container">
+        <button class="button-climbers" type="button">MORE CLIMBERS</button>
+    </div>
+</div>
+ <!-- End partie Climbers -->
+
+
+<!-- Begin partie Climbing new -->
+
+<div class="partie-climbing-new">
+    <div class="climbing-new-title">Climbing News</div>
+    <div class="climbing-new-paragraphe">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco taboris nisi ut aliquip ex </div>
+    <div class="bloque-climbing-parent">
+        <div class="bloque-climbing">
+            <div class="bloque-climbing-titre">Rock climbing in Yosemite</div>
+            <div class="bloque-climbing-image center"><img class="img"src="images/climber-on-el-cap-main-page-web 3.png"></div>
+            <div class="bloque-climbing-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et...</div>    
+        </div>    
+    </div>
+
+    <div class="button-container">
+        <button class="button-more-news" type="button">MORE NEWS</button>
+    </div>
+</div>
+<!-- End partie Climbing news -->
+
+
+<!-- End partie FOOTER -->
+<div class="footer">
+    <div class="line-footer"></div>
+    <div class="titre-footer">Enoki Studio - Test Technique</div>
+</div>
+<!-- End partie FOOTER -->
+
+ <!-- CODE js sliders -->
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ <script>
+    // Slider
+    document.addEventListener( 'DOMContentLoaded', function () {
+        new Splide( '#image-slider',
+        {
+            'autoplay':true,
+            'interval': 1500,
+            'pagination': false,
+            'height': 320,
+            'gap': '2em',
+            'perMove':1,
+            'rewind': true,
+            'perPage'    : 3,
+            'cover'      : true,
+            'heightRatio': 0.5,
+            breakpoints: {
+                1000: {
+                    perPage: 1,
+                },
+            }
+        }
+        ).mount();
+    } );
+
+    // Scroll button
+    $(document).ready(function() {
+		$('#btn-scroll').on('click', function() { 
+			var speed = 750;
+			$('html, body').animate( { scrollTop: $('#climbers').offset().top }, speed ); // Go
+			return false;
+		});
+	});
+</script>
+</body>
+</html>

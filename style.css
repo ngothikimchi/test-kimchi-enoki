@@ -1,0 +1,261 @@
+body{
+    margin: 0px;
+    font-family: 'Montserrat';
+}
+.center{
+    margin-left:auto;
+    margin-right:auto;
+}
+.full-width{
+    width:100%;
+}
+.color-blue{
+    color:#2580BC !important; 
+}
+/* SLIDER */
+.splide__arrow svg{
+    fill: #285D81 !important;
+}
+
+/* PARTIE HEADER */
+.partie-header{
+    height:100vh;
+    margin:0;
+    background-image: url("images/climber-on-el-cap-main-page-web.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.header-title{
+    position: absolute;
+    text-align:center;
+    top:45%;
+    font-size: 56px;
+    color: white;
+    font-weight: 800;
+
+}
+.header-icon{
+    position: absolute;
+    top:92%;
+    text-align:center;
+   
+    height:10vh;
+}
+#btn-scroll{
+    color:white;
+    cursor: pointer;
+}
+/****************************************/
+
+/*PARTIE CLIMBERS*/
+.partie-climbers{
+    width:80%;
+    height:fit-content;
+    padding-bottom:10%;
+}
+    /*sliders*/
+.climbing-new-title1{
+    text-align:center;
+    padding-top:7%;
+    color:white;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 60px;
+    padding-bottom:3%;
+}
+
+.climbers-text{
+    width:65%;
+    text-align:center;
+    font-size:14px;
+    line-height: 30px;
+    font-style: normal;
+    font-weight: 400;
+    color: #285D81;
+}
+
+.button-container{
+    width: 100%;
+    text-align: center;
+}
+
+.button-climbers{
+    height:fit-content;
+    background-color: #9AF2D3;
+    text-align: center;
+    border: none;
+    padding:20px 32px;
+    color:#285D81; 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: 'Montserrat';
+    cursor: pointer;
+}
+
+/* position slider */
+.picture{
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    width: 293px;
+    height: 230px;
+}
+
+.picture img{
+    height: 270px;
+    width: 100%;
+}
+
+.slider-width{
+    width:90%;
+    
+}
+.nom-lieu-climber{
+    position:absolute;
+    width:70%;
+    left:15%;
+    top:105%;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nom-climber{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;  
+    color:#285D81;  
+    padding-top:7px;
+}
+
+.lieu-climber{
+    color:#285D81;
+    font-size: 13px;
+    line-height: 30px;
+}
+/*************************/
+
+/* PARTIE CLIMBING NEWS */
+.partie-climbing-new{
+    width:100%;
+    height:fit-content;
+    background-color: #2580BC;
+    padding-bottom:100px;
+}
+
+.climbing-new-title{
+    padding-top:5%;
+    color:white;
+    font-weight:bolder;
+    font-size:30px;
+    text-align:center;    
+}
+
+.climbing-new-paragraphe{
+    margin-top:3em;
+    margin-left: auto;
+    margin-right: auto;
+    color:#F8FAFF;
+    font-size: 14px;
+    line-height: 30px;
+    text-align:center;
+    width: 54%;
+    font-weight:400;
+}
+.bloque-climbing-parent{
+    margin-top:7%;
+    width:467px;
+    height:452px;
+    margin-left:auto;
+    margin-right:auto;    
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-image: url("images/climber-on-el-cap-main-page-web 3.png");
+}
+
+.bloque-climbing{
+    position:absolute;
+    height:494px;
+    width:426px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    background-color:#F8FAFF ;
+}
+
+.bloque-climbing-titre{
+    color:#2580BC;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-top:10%;
+    padding-left: 45px;
+}
+
+.bloque-climbing-image{
+    width:78%;
+    text-align: center;
+    padding-top:5%;
+}
+
+.img{
+    width:100%;
+    height:285px;
+}
+
+.bloque-climbing-text{
+    color: #8F8F8F;
+    padding-top:10%;
+    font-size: 14px;
+    width:80%;
+    margin-left: 10%;
+    text-align: left;
+    font-weight: 600;
+}
+
+.button-more-news{
+    margin-top:120px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    padding:10px 20px;
+    font-size:12px;
+    line-height:20px;
+    font-weight:bold;
+    font-family: 'Montserrat';
+    color:#285D81;
+    border: none;
+    width: 224px;
+    height: 60px;
+    cursor: pointer;
+}
+
+ /* footer */
+ .footer{
+    width:100%;
+    height:fit-content;
+ }
+ .line-footer{
+     width:80%;
+     height:10px;
+     border-bottom:4px solid #2580BC;
+     margin-left:auto;
+     margin-right:auto;
+     padding-top:5%;
+     margin-bottom:1%;
+
+ }
+ .titre-footer{
+     text-align: center;
+     color:#285D81;
+     font-size:30px;
+     padding-bottom:10%;
+     font-weight:600;
+     line-height: 60px;
+     font-style: normal;
+
+ }
